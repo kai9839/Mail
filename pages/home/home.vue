@@ -46,5 +46,13 @@
 </script>
 
 <style lang="scss">
+  swiper {
+    height: 330rpx;
 
+    .swiper-item,
+    image {
+      width: 100%;
+      height: 100%;
+    }
+  }
 </style>
