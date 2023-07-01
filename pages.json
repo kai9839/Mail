@@ -23,20 +23,18 @@
       "enablePullDownRefresh": false
     }
 
-  }    ,{
-            "path" : "pages/home/55/55",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+  }],
   "subPackages": [{
     "root": "subpkg",
     "pages": [{
-                    "path" : "good_detail/good_detail",
+      "path": "good_detail/good_detail",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }    ,{
+                    "path" : "goods_list/goods_list",
                     "style" :                                                                                    
                 {
                     "navigationBarTitleText": "",
