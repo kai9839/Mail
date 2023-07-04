@@ -102,7 +102,6 @@
       },
       // 点击跳转到商品列表页面
       gotoGoodsList(kw) {
-        console.log('55');
         uni.navigateTo({
           url: '/subpkg/goods_list/goods_list?query=' + kw
         })
