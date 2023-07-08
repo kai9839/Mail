@@ -22,7 +22,7 @@
           // 页码值
           pagenum: 1,
           // 每页显示多少条数据
-          pagesize: 10,
+          pagesize: 10
         },
         // 商品列表的数据
         goodsList: [],
@@ -59,9 +59,11 @@
       },
       // 点击跳转到商品详情页面
       gotoDetail(goods) {
+        console.log(goods.goods_id);
         uni.navigateTo({
-          url: '/subpkg/goods_detail/goods_detail?goods_id=' + goods.goods_id
+          url: '/subpkg/goods_detail/goods_detail?goods_id=' + goods.goods_id,
         })
+
       }
     },
     // 触底的事件

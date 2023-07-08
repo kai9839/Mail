@@ -27,13 +27,6 @@
   "subPackages": [{
     "root": "subpkg",
     "pages": [{
-      "path": "good_detail/good_detail",
-      "style": {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
-      }
-
-    }, {
       "path": "goods_list/goods_list",
       "style": {
         "onReachBottomDistance": 150,
@@ -47,11 +40,17 @@
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
+    }, {
+      "path": "goods_detail/goods_detail",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
 
     }]
   }],
   "globalStyle": {
-    "navigationBarTextStyle": "while",
+    "navigationBarTextStyle": "white",
     "navigationBarTitleText": "优品Shop",
     "navigationBarBackgroundColor": "#C00000",
     "backgroundColor": "#FFFFFF",
